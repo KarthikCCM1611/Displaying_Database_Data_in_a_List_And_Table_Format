@@ -3,4 +3,4 @@ Getting the data from the data base base on the dropdown value selection and dis
 
 You can get the all the datas or particular data based on the dropdown selection from JSON server. 
 
-Note: The datas are comming from fake JSON server
+Note: The datas are comes from fake JSON server
