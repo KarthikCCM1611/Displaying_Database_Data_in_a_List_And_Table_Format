@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Displaying Database Data in a List And Table Format</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script defer src="./script.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="container">
+        <div>
+          <label for="datas">Choose a data:</label>
+          <select id="datas" name="datas">
+            <option value="https://jsonplaceholder.typicode.com/posts">https://jsonplaceholder.typicode.com/posts</option>
+            <option value="https://jsonplaceholder.typicode.com/photos">https://jsonplaceholder.typicode.com/photos</option>
+            <option value="https://jsonplaceholder.typicode.com/comments">https://jsonplaceholder.typicode.com/comments</option>
+            <option value="https://jsonplaceholder.typicode.com/albums">https://jsonplaceholder.typicode.com/albums</option>
+            <option value="https://jsonplaceholder.typicode.com/todos">https://jsonplaceholder.typicode.com/todos</option>
+            <option value="https://jsonplaceholder.typicode.com/users">https://jsonplaceholder.typicode.com/users</option>
+          </select>
+          <button id="getDatas">Get datas from database</button><br> <br>  
+        </div>
+        <div>
+          <label for="data">Choose a particular data:</label>
+          <input id="dataId" placeholder="Enter the ID here.." type="number" name="data">
+          <button id="getParticularDatas">Get Particluar datas from database</button><br> <br>  
+        </div>
+      </div>
+      <ul id="myList"></ul>  
+</body>
+</html>
